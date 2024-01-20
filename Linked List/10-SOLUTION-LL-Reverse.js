@@ -64,17 +64,21 @@ class LinkedList {
         if (this.length === 0) return undefined;
         let temp = this.head;
         let pre = this.head;
+
         while (temp.next) {
             pre = temp;
             temp = temp.next;
         }
+
         this.tail = pre;
         this.tail.next = null;
         this.length--;
+
         if (this.length === 0) {
             this.head = null;
             this.tail = null;
         }
+
         return temp;
     }
 
@@ -95,11 +99,11 @@ class LinkedList {
         if (this.length === 0) return undefined;
         let temp = this.head;
         this.head = this.head.next;
+        temp.next = null
         this.length--;
         if (this.length === 0) {
             this.tail = null;
         }
-        temp.next = null;
         return temp;
     }
 
@@ -152,8 +156,10 @@ class LinkedList {
         let temp = this.head;
         this.head = this.tail;
         this.tail = temp;
+
         let next = temp.next;
         let prev = null;
+
         for (let i = 0; i < this.length; i++) {
             next = temp.next;
             temp.next = prev;
