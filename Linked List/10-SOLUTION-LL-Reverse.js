@@ -192,7 +192,7 @@ test();
 
 
 /*
-    EXPECTED OUTPUT:
+    EXPECTED OUTPUT: Linked list
     ----------------
     LL before reverse():
     1
