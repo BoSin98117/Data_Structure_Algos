@@ -62,6 +62,7 @@ class DoublyLinkedList {
         return this;
     }
 
+    // Code for 1 item in list
     pop() {
         if (this.length === 0) return undefined;
         let temp = this.tail;
