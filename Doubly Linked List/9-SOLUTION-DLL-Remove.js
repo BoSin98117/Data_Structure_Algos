@@ -62,7 +62,6 @@ class DoublyLinkedList {
         return this;
     }
 
-    // Code for 1 item in list
     pop() {
         if (this.length === 0) return undefined;
         let temp = this.tail;
@@ -140,10 +139,12 @@ class DoublyLinkedList {
         const newNode = new Node(value);
         const before = this.get(index - 1);
         const after = before.next;
+
         before.next = newNode;
         newNode.prev = before;
         newNode.next = after;
         after.prev = newNode;
+
         this.length++;
         return true;
     }
