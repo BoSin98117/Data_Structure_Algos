@@ -4,6 +4,7 @@ function swap(array, firstIndex, secondIndex) {
     array[secondIndex] = temp;
 }
 
+// look for pivot
 function pivot(array, pivotIndex = 0, endIndex = array.length - 1) {
     let swapIndex = pivotIndex;
     for (let i = pivotIndex + 1; i <= endIndex; i++) {
