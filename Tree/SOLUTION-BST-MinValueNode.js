@@ -60,7 +60,7 @@ class BST {
 
 }
 
-// BST
+// BST tree
 
 function test() {
     let myTree = new BST();
