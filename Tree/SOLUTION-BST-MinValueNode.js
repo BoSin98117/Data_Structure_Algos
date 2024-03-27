@@ -5,7 +5,7 @@ class Node {
         this.right = null;
     }
 }
-
+// gh
 class BST {
     constructor() {
         this.root = null;
