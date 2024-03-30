@@ -5,7 +5,7 @@ class Node {
         this.right = null;
     }
 }
-// BST tree Stacks 
+// BST tree Stacks and Queues
 class BST {
     constructor() {
         this.root = null;
