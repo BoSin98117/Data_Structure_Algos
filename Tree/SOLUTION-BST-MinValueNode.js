@@ -5,7 +5,7 @@ class Node {
         this.right = null;
     }
 }
-// gh
+// BST tree Stacks 
 class BST {
     constructor() {
         this.root = null;
