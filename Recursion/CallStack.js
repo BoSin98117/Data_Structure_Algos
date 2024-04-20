@@ -13,3 +13,5 @@ function funcOne() {
 }
 
 funcOne()
+
+// callstack
