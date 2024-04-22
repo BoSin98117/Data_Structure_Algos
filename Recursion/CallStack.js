@@ -15,3 +15,4 @@ function funcOne() {
 funcOne()
 
 // callstack
+// functions
