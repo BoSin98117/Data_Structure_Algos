@@ -12,3 +12,5 @@ let array2 = [2, 4, 5]
 
 
 itemInCommon(array1, array2)
+
+// Hash
