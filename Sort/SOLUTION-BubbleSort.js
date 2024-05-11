@@ -32,4 +32,4 @@ test();
 
 // Bubble Sort
 
-// Sort
+// Sorting
